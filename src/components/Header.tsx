@@ -26,6 +26,9 @@ const Header = () => {
             <a href="#servicios" className="text-foreground hover:text-primary transition-colors">
               Servicios
             </a>
+            <a href="#galeria" className="text-foreground hover:text-primary transition-colors">
+              Galería
+            </a>
             <a href="#nosotros" className="text-foreground hover:text-primary transition-colors">
               Nosotros
             </a>
@@ -71,6 +74,13 @@ const Header = () => {
                 className="text-foreground hover:text-primary transition-colors"
               >
                 Servicios
+              </a>
+              <a
+                href="#galeria"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-foreground hover:text-primary transition-colors"
+              >
+                Galería
               </a>
               <a
                 href="#nosotros"

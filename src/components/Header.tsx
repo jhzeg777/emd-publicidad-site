@@ -14,8 +14,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img src="https://emdpublicidad.com/bmb/emd_logo.png" alt="EMD Publicidad" className="h-8 w-auto" />
-            <h1 className="text-xl font-bold text-emd-black">EMD Publicidad</h1>
+            <img src="https://emdpublicidad.com/bmb/emd_logo.png" alt="EMD Publicidad" className="h-12 w-auto" />
           </div>
 
           {/* Desktop Navigation */}

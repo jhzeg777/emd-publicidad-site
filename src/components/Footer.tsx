@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img src={logo} alt="EMD Publicidad" className="h-8 w-auto brightness-0 invert" />
+              <img src="https://emdpublicidad.com/bmb/emd_logo.png" alt="EMD Publicidad" className="h-8 w-auto brightness-0 invert" />
               <h3 className="text-xl font-bold text-white">EMD Publicidad</h3>
             </div>
             <p className="text-gray-300 text-sm">
